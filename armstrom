@@ -1,0 +1,19 @@
+//armstrom 
+#include<iostream>
+using namespace std;
+int main(){
+    int a=153;
+    int sum=a;
+    int ans=0;
+    while(a>0){
+        int rem=a%10;
+        ans=(ans)+rem*rem*rem;
+        a=a/10;}
+        if(sum==ans){
+            cout<<"armstrom";
+        }else{
+            cout<<"not armstrom";
+        }
+    
+    return 0;
+}
