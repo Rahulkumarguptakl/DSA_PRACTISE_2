@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a=2,b=4,c=5;
+    if(a<b && b<c){
+        cout<<"c";}
+        else if(a>b&&b>c){
+           cout<<"a";
+       }else{
+           cout<<"b";
+       }
+    return 0;
+    
+}
