@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+bool ispalindrom(int n){
+    int tem=n;
+    int ans=0;
+    while(n!=0){
+        ans=(ans*10)+(n%10);
+        n=n/10;
+        
+    
+   } return (ans==tem);
+}
+int main(){
+    int n=232;
+    if(ispalindrom(n)){
+        cout<<"yes";
+    }
+    else{
+        cout<<"no";
+    }
+    return 0;
+}
