@@ -1,0 +1,13 @@
+#include<iostream>
+ using namespace std;
+ int main(){
+     
+     int n=43;
+     if(n<=0){
+     cout<<"negative";
+     }else{
+         cout<<"positive";
+     }
+     
+     return 0;
+ }
