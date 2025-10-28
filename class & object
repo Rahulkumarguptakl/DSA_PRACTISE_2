@@ -1,0 +1,21 @@
+#include<iostream>
+ using namespace std;
+ class Student{
+     public:
+     string name;
+     string salary;
+     /*string Dept;
+     
+     void changeDept(string newDept){
+     Dept=newDept;
+         
+     }*/
+     
+ };
+ int main(){
+    Student t1;
+    t1.name="Rahul";
+    cout<<t1.name<<endl;
+     return 0; 
+ }
+ 
